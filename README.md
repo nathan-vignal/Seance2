@@ -2,7 +2,7 @@
 
 ### IUT d’Aix-Marseille – Département Informatique Aix-en-Provence
 
-## # TP1 -- Manipulation des collections, principes SOLID, Modèle de conception Stratégie
+# TP1 : Collections, principes SOLID, Strategy
 
 
 * Le support du cours est disponible [ici](https://github.com/IUTInfoAix-M3105/Ressources)
