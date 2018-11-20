@@ -7,17 +7,16 @@ import java.util.ArrayList;
 import java.util.TreeSet;
 
 public class Chargement {
+    private ArrayDeque<Conteneur> conteneurs;
+
+
     public ArrayDeque<Conteneur> getConteneurs() {
         return conteneurs;
     }
 
-    private ArrayDeque<Conteneur> conteneurs;
-
     public Chargement(TreeSet<Conteneur> conteneurs){
         this.conteneurs = new ArrayDeque<Conteneur>(conteneurs);
     }
-
-
 
     public Conteneur decharger(){
 
