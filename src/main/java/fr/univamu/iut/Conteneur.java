@@ -36,7 +36,7 @@ public class Conteneur implements Serializable {
                 " et à destination de " + destination;
     }
 
-    public getPrix(Tarif tarif){
-        Tarif.get
+    public double getPrix(Tarif tarif){
+        return tarif.calculPrix(this);
     }
 }
